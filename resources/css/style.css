@@ -1,0 +1,18 @@
+/* universal styling */
+
+
+/* header */
+header {
+  height: 64px;
+  border: 1px solid black;
+  display: inline-flex;
+}
+
+header img {
+  padding-left: 24px;
+  padding-top: 10px;
+}
+
+.navbar span {
+  text-align: left;
+}
