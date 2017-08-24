@@ -1,18 +1,99 @@
 /* universal styling */
-
-
-/* header */
-header {
-  height: 64px;
-  border: 1px solid black;
-  display: inline-flex;
+html {
+  font-size: 16px;
 }
 
-header img {
-  padding-left: 24px;
-  padding-top: 10px;
+/* header */
+.header {
+  height: 64px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.container {
+  display: flex;
+}
+
+#logo {
+  margin: 0 auto;
+  margin-left: 24px;
+  height: 64px;
+}
+
+#title {
+  font-size: 2rem;
+  color: gray;
+  margin-top: 4.5%;
+}
+
+#title em {
+  color: black !important;
+}
+
+.navbar {
+  align-items: center;
+  display: flex;
+  float: right;
+  margin-right: 24px;
 }
 
 .navbar span {
-  text-align: left;
+  margin: 16px;
+  float: right;
+  font-size: 1rem;
+}
+
+/* jumbotron */
+.jumbotron {
+  display: flex;
+  flex-flow: row;
+  background-color: lightgray;
+}
+
+.banner {
+  margin: 32px 24px;
+  width: 60%;
+  height: 40%;
+  overflow: hidden;
+}
+
+.banner img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.start-info {
+  margin: 32px 24px;
+  padding-top: 10%;
+  width: 31%;
+  max-height: 40px;
+}
+
+.start-info h2 {
+  font-size: 230%;
+  position: relative;
+  font-weight: bold;
+}
+
+.start-info h3 {
+  font-size: 145%;
+  position: relative;
+  width: 100%;
+}
+
+.start-container {
+  margin: 0 auto;
+  text-align: center;
+  background-color: darkgray;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.start-container span {
+  font-size: 120%;
+  text-align: center;
+  position: relative;
+  width: 50%;
 }
