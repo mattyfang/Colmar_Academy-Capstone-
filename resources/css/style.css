@@ -1,6 +1,9 @@
 /* universal styling */
-html {
+html , body {
   font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 /* header */
@@ -25,6 +28,8 @@ html {
   font-size: 2rem;
   color: gray;
   margin-top: 4.5%;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
 }
 
 #title em {
@@ -42,6 +47,7 @@ html {
   margin: 16px;
   float: right;
   font-size: 1rem;
+  font-family: 'Open Sans', sans-serif;
 }
 
 /* jumbotron */
@@ -53,7 +59,7 @@ html {
 
 .banner {
   margin: 32px 24px;
-  width: 60%;
+  width: 55.3%;
   height: 40%;
   overflow: hidden;
 }
@@ -68,17 +74,19 @@ html {
   margin: 32px 24px;
   padding-top: 10%;
   width: 31%;
-  max-height: 40px;
+  overflow: hidden;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .start-info h2 {
-  font-size: 230%;
+  font-size: 3rem;
   position: relative;
   font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .start-info h3 {
-  font-size: 145%;
+  font-size: 1.4rem;
   position: relative;
   width: 100%;
 }
@@ -89,11 +97,242 @@ html {
   background-color: darkgray;
   padding-top: 8px;
   padding-bottom: 8px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .start-container span {
-  font-size: 120%;
+  font-size: 1.2rem;
   text-align: center;
   position: relative;
   width: 50%;
+}
+
+/* second container */
+#secondcontainer {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 32px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#secondcontainer .banner {
+  height: auto;
+  width: 97%;
+  overflow: hidden;
+}
+
+#secondcontainer .banner img {
+  height: auto;
+  display: block;
+  max-width: 100%;
+}
+
+.main-info {
+  margin-left: 24px;
+  margin-right: 48px;
+  height: 300px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.main-info h2 {
+  display: flex;
+  padding: 32px 0 18px 0;
+  font-size: 2.5rem;
+  height: 50px;
+  font-weight: bold;
+  width: 100%;
+}
+
+.main-info p {
+  width: 100%;
+  font-size: 1rem;
+  line-height: 25px;
+  padding-bottom: 10px;
+  align-items: stretch;
+}
+
+.main-info h6 {
+  font-size: 0.85rem;
+}
+
+#secondcontainer .leftcontainer {
+  font-family: 'Open Sans', sans-serif;
+  max-width: 62%;
+  margin: 0;
+  padding: 0;
+}
+
+ #secondcontainer .rightcontainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+  justify-content: flex-start;
+
+}
+
+#secondcontainer .rightcontainer img {
+  max-width: 70%;
+  height: auto;
+  position: relative;
+  padding: 16px 16px;
+}
+
+ #secondcontainer .rightcontainer .information {
+  padding-top: 60px;
+  width: 65%;
+}
+
+ #secondcontainer .rightcontainer .information h5 {
+   font-size: 1.75rem;
+   font-weight: 500;
+   padding-bottom: 5px;
+   width: 100%;
+ }
+
+ #secondcontainer .rightcontainer .information h6 {
+   line-height: 20px;
+   font-size: 1.1rem;
+   width: 100%;
+ }
+
+#link-color {
+  color: lightblue !important;
+}
+
+.top {
+  display: flex;
+  margin-top: 32px;
+  margin-bottom: 3px;
+  margin-right: 0;
+  border: 1px solid lightgray;
+}
+
+.middle {
+  display: flex;
+  border: 1px solid lightgray;
+}
+
+.middle-line {
+  padding: 8px 0;
+}
+
+.bottom {
+  display: flex;
+  border: 1px solid lightgray;
+  background-color: lightgray;
+}
+
+
+/*third container */
+.thirdcontainer {
+  background-color: lightgray;
+  padding-bottom: 32px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.thirdcontainer h1 {
+  text-align: center;
+  padding: 32px 0 32px 0;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+#sixmajors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 130px 0 130px;
+  background-color: lightgray;
+  padding: 0 32px 0 32px;
+  width: auto;
+  height: auto;
+
+}
+
+#container {
+  border: 1px solid green;
+  background-color: white;
+  height: 400px;
+  width: 350px;
+}
+
+#container img {
+  height: auto;
+  width: 350px;
+}
+
+#sixmajors .info {
+  padding-left: 16px;
+  height:
+}
+
+#sixmajors .info h5 {
+  font-size: 2rem;
+  padding-top: 16px;
+}
+
+#sixmajors .info p {
+  font-size: 1.1rem;
+}
+
+#sixmajors .info p:last-child {
+  line-height: 25px;
+}
+
+
+.software {
+  margin-bottom: 32px;
+}
+
+/*
+.topthree {
+  display: flex;
+  background-color: white;
+  flex-direction: row;
+  border: 2px solid green;
+  margin: 0 auto;
+  padding-bottom: 32px;
+  margin-bottom: 32px;
+  width: 90%;
+  justify-content: space-between;
+  height: 400px;
+}
+
+.topthree img {
+  max-width: 100%;
+  height: auto;
+}
+
+.bottomthree {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  width: 90%;
+  background-color: white;
+  padding-bottom: 32px;
+  margin-bottom: 32px;
+  height: 400px;
+}
+
+.bottomthree img {
+  max-width: 100%;
+  height: auto;
+}
+*/
+/* fourth container */
+#fourthcontainer h1 {
+  text-align: center;
+  font-size: 3rem;
+  padding: 32px 0;
+}
+
+/* footer */
+.footer {
+  border-top: 1px solid lightgray;
+  padding: 16px 0 0 24px;
+  height: 64px;
+}
+
+.float-right {
+  float: right;
 }
